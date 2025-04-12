@@ -38,13 +38,13 @@ public class Main {
         System.out.println(pojoStudent);
         System.out.println(recorStudent);
 
-        System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClassList());
+        System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClass());
 
         System.out.println(recorStudent.name() + " is taking " + recorStudent.classList());
 
-        pojoStudent.setClassList(pojoStudent.getClassList() + ", Java OCP Exam 829.");
+        pojoStudent.setClassList(pojoStudent.getClass() + ", Java OCP Exam 829.");
 
-        System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClassList());
+        System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClass());
 
         /*
          * recorStudent.classList(recorStudent.classList()+", Java OCP Exam 829"); this
